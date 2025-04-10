@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-// import About from '../components/About';
+import About from '../components/About';
 // import Skills from '../components/Skills';
 // import Projects from '../components/Projects';
 // import Gallery from '../components/Gallery';
@@ -14,9 +14,9 @@ const Home = ({ darkMode, toggleDarkMode }) => {
     <>
       <Header />
       <Hero />
-      {/* <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <About />
-      <Skills />
+      {/* <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} /> */}
+     <About />
+      {/* <Skills />
       <Projects />
       <Gallery />
       <Contact />
